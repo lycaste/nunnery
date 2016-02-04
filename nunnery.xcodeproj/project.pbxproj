@@ -15,6 +15,8 @@
 		F8863AF41C63969800DEDB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8863AF21C63969800DEDB68 /* LaunchScreen.storyboard */; };
 		F8863AFD1C639E6000DEDB68 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8863AFC1C639E6000DEDB68 /* Then.swift */; };
 		F8863AFF1C639F9200DEDB68 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8863AFE1C639F9200DEDB68 /* GCD.swift */; };
+		F8863B011C63A14F00DEDB68 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8863B001C63A14F00DEDB68 /* Reusable.swift */; };
+		F8863B031C63A18900DEDB68 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8863B021C63A18900DEDB68 /* NibLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F8863AF51C63969800DEDB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8863AFC1C639E6000DEDB68 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		F8863AFE1C639F9200DEDB68 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		F8863B001C63A14F00DEDB68 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		F8863B021C63A18900DEDB68 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			children = (
 				F8863AFC1C639E6000DEDB68 /* Then.swift */,
 				F8863AFE1C639F9200DEDB68 /* GCD.swift */,
+				F8863B001C63A14F00DEDB68 /* Reusable.swift */,
+				F8863B021C63A18900DEDB68 /* NibLoadable.swift */,
 			);
 			name = extension;
 			sourceTree = "<group>";
@@ -227,7 +233,9 @@
 				F8863AEC1C63969800DEDB68 /* ViewController.swift in Sources */,
 				F8863AFD1C639E6000DEDB68 /* Then.swift in Sources */,
 				F8863AFF1C639F9200DEDB68 /* GCD.swift in Sources */,
+				F8863B031C63A18900DEDB68 /* NibLoadable.swift in Sources */,
 				F8863AEA1C63969800DEDB68 /* AppDelegate.swift in Sources */,
+				F8863B011C63A14F00DEDB68 /* Reusable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
