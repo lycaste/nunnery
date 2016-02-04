@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8863AEA1C63969800DEDB68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8863AE91C63969800DEDB68 /* AppDelegate.swift */; };
+		F8863AEC1C63969800DEDB68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8863AEB1C63969800DEDB68 /* ViewController.swift */; };
+		F8863AEF1C63969800DEDB68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8863AED1C63969800DEDB68 /* Main.storyboard */; };
+		F8863AF11C63969800DEDB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8863AF01C63969800DEDB68 /* Assets.xcassets */; };
+		F8863AF41C63969800DEDB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8863AF21C63969800DEDB68 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8863AE61C63969700DEDB68 /* nunnery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nunnery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8863AE91C63969800DEDB68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8863AEB1C63969800DEDB68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8863AEE1C63969800DEDB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8863AF01C63969800DEDB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8863AF31C63969800DEDB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8863AF51C63969800DEDB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8863AE31C63969700DEDB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8863ADD1C63969700DEDB68 = {
+			isa = PBXGroup;
+			children = (
+				F8863AE81C63969800DEDB68 /* nunnery */,
+				F8863AE71C63969700DEDB68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8863AE71C63969700DEDB68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8863AE61C63969700DEDB68 /* nunnery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8863AE81C63969800DEDB68 /* nunnery */ = {
+			isa = PBXGroup;
+			children = (
+				F8863AE91C63969800DEDB68 /* AppDelegate.swift */,
+				F8863AEB1C63969800DEDB68 /* ViewController.swift */,
+				F8863AED1C63969800DEDB68 /* Main.storyboard */,
+				F8863AF01C63969800DEDB68 /* Assets.xcassets */,
+				F8863AF21C63969800DEDB68 /* LaunchScreen.storyboard */,
+				F8863AF51C63969800DEDB68 /* Info.plist */,
+			);
+			path = nunnery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8863AE51C63969700DEDB68 /* nunnery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8863AF81C63969800DEDB68 /* Build configuration list for PBXNativeTarget "nunnery" */;
+			buildPhases = (
+				F8863AE21C63969700DEDB68 /* Sources */,
+				F8863AE31C63969700DEDB68 /* Frameworks */,
+				F8863AE41C63969700DEDB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nunnery;
+			productName = nunnery;
+			productReference = F8863AE61C63969700DEDB68 /* nunnery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8863ADE1C63969700DEDB68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yh;
+				TargetAttributes = {
+					F8863AE51C63969700DEDB68 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F8863AE11C63969700DEDB68 /* Build configuration list for PBXProject "nunnery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8863ADD1C63969700DEDB68;
+			productRefGroup = F8863AE71C63969700DEDB68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8863AE51C63969700DEDB68 /* nunnery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8863AE41C63969700DEDB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8863AF41C63969800DEDB68 /* LaunchScreen.storyboard in Resources */,
+				F8863AF11C63969800DEDB68 /* Assets.xcassets in Resources */,
+				F8863AEF1C63969800DEDB68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8863AE21C63969700DEDB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8863AEC1C63969800DEDB68 /* ViewController.swift in Sources */,
+				F8863AEA1C63969800DEDB68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8863AED1C63969800DEDB68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8863AEE1C63969800DEDB68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8863AF21C63969800DEDB68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8863AF31C63969800DEDB68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8863AF61C63969800DEDB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8863AF71C63969800DEDB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8863AF91C63969800DEDB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nunnery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.com.nunnery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8863AFA1C63969800DEDB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nunnery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.com.nunnery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8863AE11C63969700DEDB68 /* Build configuration list for PBXProject "nunnery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8863AF61C63969800DEDB68 /* Debug */,
+				F8863AF71C63969800DEDB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8863AF81C63969800DEDB68 /* Build configuration list for PBXNativeTarget "nunnery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8863AF91C63969800DEDB68 /* Debug */,
+				F8863AFA1C63969800DEDB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8863ADE1C63969700DEDB68 /* Project object */;
+}
